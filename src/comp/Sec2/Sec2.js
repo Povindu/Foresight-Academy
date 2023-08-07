@@ -15,6 +15,7 @@ const App = () => {
                  innovation and imagination. Through workshops, seminars, and hands-on
                   projects, participants gain insights into cutting-edge technologies and emerging trends.</p>
             </div>
+            
         </div>
 
 
