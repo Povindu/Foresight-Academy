@@ -1,6 +1,6 @@
 import React from 'react';
-import {ReactComponent as HeadText} from './HeadText.svg';
-import {ReactComponent as HeadCircle} from './Ellipse 28.svg';
+import HeadText from './HeadText.svg';
+import HeadCircle from './Ellipse 28.svg';
 // import HeadText2 from './HeadText.png';
 
 const App = () => {
@@ -8,9 +8,10 @@ const App = () => {
     <div className='section1'>
 
     <div className="HeadTextDiv">
-      <HeadText />
+      <img src={HeadText} alt="ef"></img>
+      {/* <HeadText /> */}
     </div>
-    <HeadCircle />
+    <img className="HeadCircle" src={HeadCircle} alt="ed"></img>
       
 
 

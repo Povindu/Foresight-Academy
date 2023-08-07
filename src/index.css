@@ -4,43 +4,82 @@
 @font-face {
   font-family: "AkiraExpanded";
   src: local("AkiraExpanded"),
-   url("./fonts/Akira/Akira-Expanded.otf") format("opentype");
+    url("./fonts/Akira/Akira-Expanded.otf") format("opentype");
   font-weight: bold;
- }
+}
 
 @font-face {
-  font-family: "Ponnala" ;
+  font-family: "Ponnala";
   src: local("Ponnala"),
-   url("./fonts/Ponnala/Ponnala.ttf") format("truetype");
- }
+    url("./fonts/Ponnala/Ponnala.ttf") format("truetype");
+}
 
 
 
 
 * {
-  /* text-align: center; */
   margin: 0;
-  /* font-family: "Quicksand"; */
   color: white;
 }
 
-body{
-  background: linear-gradient(0deg, #000718 100%, #091125 100%, #091125 100%, #060A20 100%,#000B1D 100%);
+body {
+  width: 100vw;
+  background: linear-gradient(0deg, #000718 100%, #091125 100%, #091125 100%, #060A20 100%, #000B1D 100%);
 }
 
 
 /* NavBar */
-.navList{
+
+
+.HamButton{
+  display: none;
+}
+
+.HamButton img{
+  width: 30px;
+  position: relative;
+  float: right;
+  right: 20px;
+  top:-15px
+}
+
+.AcademyLogo {
+  position: relative;
+  top: 5vw;
+  left: calc(5vw + 10px);
+  width: 125px;
+  height: 27px;
+}
+.navHamMenu{
+  display: none;
+  /* border: 1px solid red; */
+  color: white;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.095);
+  position: relative;
+  top:3vh
+}
+
+.navHamMenu .navBut{
+  margin-left: 27px;
+  padding: 7px 1px 7px 1px;
+  /* display: list-item; */
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navList {
+  color : white;
   list-style: none;
   gap: 27px;
 }
 
-.rightNav{
+.rightNav {
   position: absolute;
-  right:40px;
+  right: 40px;
 }
-
-.navBut{
+.navList .navBut {
   margin-left: 27px;
   padding: 7px 1px 7px 1px;
   display: inline-block;
@@ -49,35 +88,190 @@ body{
   text-decoration: none;
 }
 
-.navBut:hover{
+.navBut:hover {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 550px) {
+  .navList{
+    display: none;
+  }
+  .navHamMenu{
+    /* display:block; */
+    /* display: none; */
+  }
+  .HamButton{
+    display: block;
+  } 
+}
+
+@media screen and (max-width: 400px) {
+  .HamButton img{
+    right:80px;
+  } 
+}
 
 
 
 /* Section1  */
-.section1{
+
+.section1 {
+  /* width:00px; */
   display: flex;
   justify-content: center;
+  /* vertical-align: middle; */
   position: relative;
-  top:100px;
+  top: 50px;
+}
+.HeadTextDiv img{
+  width: 50vw;
 }
 
-.navbar{
+.HeadCircle{
+  width: 25vw;
+}
+
+.navbar {
   font-family: 'DM Sans', sans-serif;
 }
 
-.HeadTextDiv{
+.HeadTextDiv {
   position: absolute;
-  top:50px;
-  
-}
-.AcademyLogo{
-  position: relative;
-  top:30px;
-  left:73px;
-  width: 125px;
-  height: 27px;
+  top: 4vw;
+
 }
 
+
+
+
+
+/* Section 2 */
+
+.sec2 {
+  margin-top: 300px;
+}
+
+.txt1 {
+  display: flex;
+  width: 609px;
+  height: 232px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+}
+
+.txt11 {
+  color: #99B3FF;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 61px;
+  /* 217.857% */
+  text-transform: uppercase;
+}
+
+.txt12 {
+  color: #99B3FF;
+  font-family: Poppins;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 61px;
+  text-transform: uppercase;
+}
+
+.txt13 {
+  color: #FFF;
+  font-family: "Ponnala", Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 140% */
+}
+
+
+.txt2 {
+  display: flex;
+  width: 609px;
+  height: 232px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.txt21 {
+  color: #99B3FF;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 61px;
+  /* 217.857% */
+  text-transform: uppercase;
+}
+
+.txt22 {
+  color: #FFF;
+  font-family: "Ponnala", Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 140% */
+}
+
+.sec3 {
+  text-align: center;
+}
+
+
+.txt3 {
+  color: #99B3FF;
+  font-family: Poppins;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 61px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.grid-container {
+  margin:auto;
+  width: 50vw;
+  display: grid;
+  /* gap: 5vw; */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid-item {
+  /* border: 1px solid red; */
+  background-image: url('./comp/Sec3/ieeeLogo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.txt32 {
+  margin: auto;
+  width: 60vw;
+  /* border: 1px solid red; */
+  text-align: center;
+  display: flex;
+  width: 813px;
+  height: 223px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  /* text-align: center; */
+  font-family: Ponnala,Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 140% */
+}
