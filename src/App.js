@@ -12,9 +12,11 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <TopSec />
-      <Sec2 />
-      <Sec3 />
+      <div className="midContent">
+        <TopSec />
+        <Sec2 />
+        <Sec3 />
+      </div>
     </div>
   );
 }

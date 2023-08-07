@@ -15,7 +15,9 @@
 }
 
 
-
+div{
+  /* border: 1px solid red; */
+}
 
 * {
   margin: 0;
@@ -25,6 +27,12 @@
 body {
   width: 100vw;
   background: linear-gradient(0deg, #000718 100%, #091125 100%, #091125 100%, #060A20 100%, #000B1D 100%);
+}
+
+
+.midContent{
+  width:80vw;
+  margin: auto;
 }
 
 
@@ -45,8 +53,8 @@ body {
 
 .AcademyLogo {
   position: relative;
-  top: 5vw;
-  left: calc(5vw + 10px);
+  top: 30px;
+  left: calc(3vw + 10px);
   width: 125px;
   height: 27px;
 }
@@ -57,7 +65,7 @@ body {
   list-style: none;
   background-color: rgba(255, 255, 255, 0.095);
   position: relative;
-  top:3vh
+  top:3vh;
 }
 
 .navHamMenu .navBut{
@@ -121,7 +129,7 @@ body {
   justify-content: center;
   /* vertical-align: middle; */
   position: relative;
-  top: 50px;
+  top: 8vw;
 }
 .HeadTextDiv img{
   width: 50vw;
@@ -148,7 +156,7 @@ body {
 /* Section 2 */
 
 .sec2 {
-  margin-top: 300px;
+  padding-top: 22vw;
 }
 
 .txt1 {
@@ -164,10 +172,10 @@ body {
 .txt11 {
   color: #99B3FF;
   font-family: Poppins;
-  font-size: 28px;
+  /* font-size: 28px; */
   font-style: normal;
   font-weight: 400;
-  line-height: 61px;
+  line-height: 20px;
   /* 217.857% */
   text-transform: uppercase;
 }
@@ -180,6 +188,7 @@ body {
   font-weight: 900;
   line-height: 61px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .txt13 {
@@ -194,6 +203,8 @@ body {
 
 
 .txt2 {
+  padding-top: 250px;
+  padding-left: 35vw;
   display: flex;
   width: 609px;
   height: 232px;
@@ -205,12 +216,12 @@ body {
 .txt21 {
   color: #99B3FF;
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 66px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 61px;
-  /* 217.857% */
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .txt22 {
@@ -225,6 +236,7 @@ body {
 
 .sec3 {
   text-align: center;
+  margin-top: 20vw;
 }
 
 
