@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Foresight-Academy/static/css/main.fa9ba854.css",
+    "main.js": "/Foresight-Academy/static/js/main.6c8c9812.js",
+    "static/media/Ponnala.ttf": "/Foresight-Academy/static/media/Ponnala.943db63687f2d50ef6c4.ttf",
+    "static/media/HeadText.svg": "/Foresight-Academy/static/media/HeadText.2bccd22189a9fb728f9dcd23430b2ef2.svg",
+    "static/media/Akira-Expanded.otf": "/Foresight-Academy/static/media/Akira-Expanded.5198553380d9bb727554.otf",
+    "static/media/ieeeLogo.png": "/Foresight-Academy/static/media/ieeeLogo.96a1a3019bcb069f6faa.png",
+    "index.html": "/Foresight-Academy/index.html",
+    "static/media/Ellipse 28.svg": "/Foresight-Academy/static/media/Ellipse 28.81b583cdffc179692daf2b91ea4180f6.svg",
+    "main.fa9ba854.css.map": "/Foresight-Academy/static/css/main.fa9ba854.css.map",
+    "main.6c8c9812.js.map": "/Foresight-Academy/static/js/main.6c8c9812.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa9ba854.css",
+    "static/js/main.6c8c9812.js"
+  ]
+}
