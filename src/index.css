@@ -129,10 +129,10 @@ body {
   justify-content: center;
   /* vertical-align: middle; */
   position: relative;
-  top: 8vw;
+  top: calc(6vw + 50px);
 }
 .HeadTextDiv img{
-  width: 50vw;
+  width: calc(50vw + 50px);
 }
 
 .HeadCircle{
@@ -156,7 +156,7 @@ body {
 /* Section 2 */
 
 .sec2 {
-  padding-top: 22vw;
+  padding-top: calc(22vw + 130px);
 }
 
 .txt1 {
@@ -172,7 +172,7 @@ body {
 .txt11 {
   color: #99B3FF;
   font-family: Poppins;
-  /* font-size: 28px; */
+  font-size: calc(10px + 1.2vw);
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
@@ -183,18 +183,20 @@ body {
 .txt12 {
   color: #99B3FF;
   font-family: Poppins;
-  font-size: 66px;
+  font-size: calc(35px + 2vw);
   font-style: normal;
   font-weight: 900;
-  line-height: 61px;
+  line-height: calc(25px + 2vw);
   text-transform: uppercase;
-  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
 
 .txt13 {
+  width: calc(35vw + 100px);
   color: #FFF;
   font-family: "Ponnala", Poppins;
-  font-size: 20px;
+  font-size: calc(12px + 0.7vw);
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
@@ -216,12 +218,13 @@ body {
 .txt21 {
   color: #99B3FF;
   font-family: Poppins;
-  font-size: 66px;
+  font-size: calc(35px + 2vw);
   font-style: normal;
   font-weight: 900;
-  line-height: 61px;
+  
+  line-height: calc(25px + 2vw);
   text-transform: uppercase;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .txt22 {
