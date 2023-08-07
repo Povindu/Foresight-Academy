@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/Foresight-Academy/static/css/main.372f5426.css",
-    "main.js": "/Foresight-Academy/static/js/main.b29038eb.js",
+    "main.css": "/Foresight-Academy/static/css/main.32d18cb3.css",
+    "main.js": "/Foresight-Academy/static/js/main.2b5913c2.js",
+    "static/media/AcademyLogo.png": "/Foresight-Academy/static/media/AcademyLogo.cba04256260e1be6959b.png",
     "static/media/Ponnala.ttf": "/Foresight-Academy/static/media/Ponnala.943db63687f2d50ef6c4.ttf",
     "static/media/Ellipse 3.png": "/Foresight-Academy/static/media/Ellipse 3.bb5468c2e9fb8e1f8c16.png",
+    "static/media/Ellipse 4.png": "/Foresight-Academy/static/media/Ellipse 4.c1b45c1a894320de187a.png",
     "static/media/Ellipse 2.png": "/Foresight-Academy/static/media/Ellipse 2.079d4deeac4309236233.png",
     "static/media/HeadText.svg": "/Foresight-Academy/static/media/HeadText.2bccd22189a9fb728f9dcd23430b2ef2.svg",
     "static/media/Akira-Expanded.otf": "/Foresight-Academy/static/media/Akira-Expanded.5198553380d9bb727554.otf",
     "static/media/ieeeLogo.png": "/Foresight-Academy/static/media/ieeeLogo.96a1a3019bcb069f6faa.png",
     "index.html": "/Foresight-Academy/index.html",
     "static/media/Ellipse 28.svg": "/Foresight-Academy/static/media/Ellipse 28.81b583cdffc179692daf2b91ea4180f6.svg",
-    "main.372f5426.css.map": "/Foresight-Academy/static/css/main.372f5426.css.map",
-    "main.b29038eb.js.map": "/Foresight-Academy/static/js/main.b29038eb.js.map"
+    "main.32d18cb3.css.map": "/Foresight-Academy/static/css/main.32d18cb3.css.map",
+    "main.2b5913c2.js.map": "/Foresight-Academy/static/js/main.2b5913c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.372f5426.css",
-    "static/js/main.b29038eb.js"
+    "static/css/main.32d18cb3.css",
+    "static/js/main.2b5913c2.js"
   ]
 }
