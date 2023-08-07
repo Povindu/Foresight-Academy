@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Poppins:wght@400;900&display=swap');
+
+
+@font-face {
+  font-family: "AkiraExpanded";
+  src: local("AkiraExpanded"),
+   url("./fonts/Akira/Akira-Expanded.otf") format("opentype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "Ponnala" ;
+  src: local("Ponnala"),
+   url("./fonts/Ponnala/Ponnala.ttf") format("truetype");
+ }
+
+
+
+
+* {
+  /* text-align: center; */
+  margin: 0;
+  /* font-family: "Quicksand"; */
+  color: white;
+}
+
+body{
+  background: linear-gradient(0deg, #000718 100%, #091125 100%, #091125 100%, #060A20 100%,#000B1D 100%);
+}
+
+
+/* NavBar */
+.navList{
+  list-style: none;
+  gap: 27px;
+}
+
+.rightNav{
+  position: absolute;
+  right:40px;
+}
+
+.navBut{
+  margin-left: 27px;
+  padding: 7px 1px 7px 1px;
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navBut:hover{
+  text-decoration: underline;
+}
+
+
+
+
+/* Section1  */
+.section1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top:100px;
+}
+
+.navbar{
+  font-family: 'DM Sans', sans-serif;
+}
+
+.HeadTextDiv{
+  position: absolute;
+  top:50px;
+  
+}
+.AcademyLogo{
+  position: relative;
+  top:30px;
+  left:73px;
+  width: 125px;
+  height: 27px;
+}
+
