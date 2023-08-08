@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Foresight-Academy/static/css/main.a5a14cfd.css",
+    "main.css": "/Foresight-Academy/static/css/main.82c6a29f.css",
     "main.js": "/Foresight-Academy/static/js/main.ce91dee0.js",
     "static/media/AcademyLogo.png": "/Foresight-Academy/static/media/AcademyLogo.cba04256260e1be6959b.png",
     "static/media/Ponnala.ttf": "/Foresight-Academy/static/media/Ponnala.943db63687f2d50ef6c4.ttf",
@@ -12,11 +12,11 @@
     "static/media/ieeeLogo.png": "/Foresight-Academy/static/media/ieeeLogo.96a1a3019bcb069f6faa.png",
     "index.html": "/Foresight-Academy/index.html",
     "static/media/Ellipse 28.svg": "/Foresight-Academy/static/media/Ellipse 28.81b583cdffc179692daf2b91ea4180f6.svg",
-    "main.a5a14cfd.css.map": "/Foresight-Academy/static/css/main.a5a14cfd.css.map",
+    "main.82c6a29f.css.map": "/Foresight-Academy/static/css/main.82c6a29f.css.map",
     "main.ce91dee0.js.map": "/Foresight-Academy/static/js/main.ce91dee0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5a14cfd.css",
+    "static/css/main.82c6a29f.css",
     "static/js/main.ce91dee0.js"
   ]
 }
