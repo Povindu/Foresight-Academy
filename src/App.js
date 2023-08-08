@@ -15,17 +15,18 @@ import Social3 from './comp/Sec4/web.png';
 
 function App() {
 
-
-
   return (
     <div className="App">
+      
       <NavBar />
+
       <div className="midContent">
         <TopSec />
         <Sec2 />
-        <Sec3 />
+        {/* <Sec3 /> */}
         <Sec4 />
       </div>
+
       <div className="circle2">
         <img src={circle2} alt=""></img>
       </div>
@@ -33,17 +34,18 @@ function App() {
         <img src={circle3} alt=""></img>
       </div>
 
-      <div className="SocialLogo">
+      <div className="SocialLogo SocialLogo1">
         <ul>
-          <li><img className="social1" src={Social1} alt=""></img></li>
-          <li><img className="social2" src={Social2} alt=""></img></li>
-          <li><img className="social3" src={Social3} alt=""></img></li>
-
+          <li><a href='https://www.facebook.com/IEEEUOMSB/ 'target="_blank" ><img className="social1" src={Social1} alt=""></img></a></li>
+          <li><a href='https://www.instagram.com/ieeesbuom/?hl=en'target="_blank" ><img className="social2" src={Social2} alt=""></img></a></li>
+          <li><a href='https://site.ieee.org/sb-moratuwa/' target="_blank" ><img className="social3" src={Social3} alt=""></img></a></li>
         </ul>
       </div>
+      
       <div className="circle4">
         <img src={circle4} alt=""></img>
       </div>
+
     </div>
 
 

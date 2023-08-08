@@ -14,14 +14,14 @@
     url("./fonts/Ponnala/Ponnala.ttf") format("truetype");
 }
 
-.App{
-
+.App {
+  padding-bottom: 200px;
+  /* overflow-x: hidden; */
 }
 
 div{
   /* border: 1px solid red; */
 }
-
 * {
   margin: 0;
   color: white;
@@ -36,8 +36,8 @@ body {
 }
 
 
-.midContent{
-  width:80vw;
+.midContent {
+  width: 80vw;
   margin: auto;
 }
 
@@ -45,16 +45,16 @@ body {
 /* NavBar */
 
 
-.HamButton{
+.HamButton {
   display: none;
 }
 
-.HamButton img{
+.HamButton img {
   width: 30px;
   position: relative;
   float: right;
   left: -20px;
-  top:-5px;
+  top: -5px;
 }
 
 .AcademyLogo {
@@ -64,17 +64,18 @@ body {
   width: 125px;
   height: 27px;
 }
-.navHamMenu{
+
+.navHamMenu {
   display: none;
   /* border: 1px solid red; */
   color: white;
   list-style: none;
   background-color: rgba(255, 255, 255, 0.095);
   position: relative;
-  top:3vh;
+  top: 4vh;
 }
 
-.navHamMenu .navBut{
+.navHamMenu .navBut {
   margin-left: 27px;
   padding: 7px 1px 7px 1px;
   /* display: list-item; */
@@ -84,7 +85,7 @@ body {
 }
 
 .navList {
-  color : white;
+  color: white;
   list-style: none;
   gap: 27px;
 }
@@ -93,6 +94,7 @@ body {
   position: absolute;
   right: 40px;
 }
+
 .navList .navBut {
   margin-left: 27px;
   padding: 7px 1px 7px 1px;
@@ -107,19 +109,23 @@ body {
 }
 
 @media screen and (max-width: 550px) {
-  .navList{
+  .navList {
     display: none;
   }
-  .HamButton{
+
+  .HamButton {
     display: block;
-  } 
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .HamButton img{
-    right:80px;
-  } 
+  .HamButton img {
+    right: 80px;
+  }
 }
+
+
+
 
 
 
@@ -133,11 +139,12 @@ body {
   position: relative;
   top: calc(5.6vw + 40px);
 }
-.HeadTextDiv img{
+
+.HeadTextDiv img {
   width: calc(50vw + 100px);
 }
 
-.HeadCircle{
+.HeadCircle {
   width: calc(25vw + 100px);
 }
 
@@ -150,6 +157,11 @@ body {
   top: calc(3.5vw + 20px);
   padding-left: 2vw;
 }
+
+
+
+
+
 
 
 
@@ -197,7 +209,7 @@ body {
 .txt13 {
   width: calc(35vw + 100px);
   color: #FFF;
-  font-family: "Ponnala", Poppins;
+  font-family: 'DM Sans', sans-serif;
   font-size: calc(12px + 0.7vw);
   font-style: normal;
   font-weight: 400;
@@ -224,17 +236,17 @@ body {
   font-size: calc(18px + 2.2vw);
   font-style: normal;
   font-weight: 900;
-  
+
   line-height: calc(25px + 2vw);
   text-transform: uppercase;
   padding-bottom: 20px;
 }
 
 .txt22 {
-  
+
   /* width: calc(35vw + 50px); */
   color: #FFF;
-  font-family: "Ponnala", Poppins;
+  font-family: 'DM Sans', sans-serif;
   font-size: calc(12px + 0.7vw);
   font-style: normal;
   font-weight: 400;
@@ -243,59 +255,77 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .txt2{
+  .txt2 {
     padding-left: 18vw;
-  } 
+  }
+  .txt1{
+    width:60vw;
+  }
+
 }
 
-.circle2{
+.circle2 {
   float: right;
   z-index: -5;
-  position: relative;
-  top: -175vw;
+  position: absolute;
+  top: 65vw;
+  right: 0;
 }
 
-.circle3{
+.circle3 {
   z-index: -5;
-  position: relative;
-  top:-165vw;
+  position: absolute;
+  top: 75vw;
 }
 
-.circle4{
+.circle4 {
   float: right;
   z-index: -5;
-  position: relative;
-  top: -150vw;
+  position: absolute;
+  top: 120vw;
+  right: 0;
 }
 
 @media screen and (max-width: 400px) {
-  .circle2{
-    top: -470vw;
+  .circle2 {
+    top: 135vw;
   }
-  .circle2 img{
+
+  .circle2 img {
     height: 200px;
   }
-  .circle3{
-    top:-400vw;
+
+  .circle3 {
+    top: 190vw;
   }
-  .circle3 img{
+
+  .circle3 img {
     height: 350px;
   }
-  .circle4{
-    top:-350vw;
+
+  .circle4 {
+    top: 360vw;
   }
-  .circle4 img{
+
+  .circle4 img {
     height: 500px;
   }
 }
 
 
 
+
+
+
+
+
+
+/* Section3 */
+
 .sec3 {
   text-align: center;
   padding-top: calc(15vw + 40px);
 }
-
 
 .txt3 {
   color: #99B3FF;
@@ -309,7 +339,7 @@ body {
 }
 
 .grid-container {
-  margin:auto;
+  margin: auto;
   width: 50vw;
   display: grid;
   /* gap: 5vw; */
@@ -331,12 +361,17 @@ body {
   /* border: 1px solid red; */
   text-align: center;
   color: #FFF;
-  font-family: "Ponnala", Poppins;
+  font-family: 'DM Sans', sans-serif;
   font-size: calc(10px + 0.7vw);
   font-style: normal;
   font-weight: 400;
   line-height: calc(1vw + 15px);
 }
+
+
+
+
+
 
 
 
@@ -361,14 +396,14 @@ body {
   font-size: calc(18px + 2.2vw);
   font-style: normal;
   font-weight: 900;
-  
+
   line-height: calc(25px + 2vw);
   text-transform: uppercase;
   padding-bottom: 20px;
 }
 
 .txt42 {
-  
+
   width: calc(35vw + 100px);
   /* width: calc(35vw + 50px); */
   color: #FFF;
@@ -381,22 +416,19 @@ body {
 }
 
 .sec5 {
+
   margin: auto;
   text-align: center;
   padding-top: calc(15vw + 150px);
-  /* padding-left: 40vw; */
-  /* float: right; */
-  /* display: flex; */
-  /* width: 80px; */
-  /* width: 609px; */
   height: 232px;
-  /* flex-shrink: 0; */
 }
-.sec5 img{
+
+.sec5 img {
   padding-bottom: 30px;
 }
 
 .txt5 {
+  /* padding-bottom: 500px; */
   margin: auto;
   text-align: center;
   width: calc(50vw + 100px);
@@ -410,22 +442,49 @@ body {
   line-height: calc(1vw + 15px);
   /* 140% */
 }
-.SocialLogo{
-  position: relative;
-  top:-72.5vw;
+
+
+
+
+
+
+/* Social Logos */
+
+
+.SocialLogo {
+  position: absolute;
+  top: 178vw;
   left: 3vw;
 }
 
-.SocialLogo ul{
+.SocialLogo ul {
   list-style: none;
 }
 
+.SocialLogo img {
+  mix-blend-mode: screen;
+}
+
 @media screen and (max-width: 400px) {
-  .SocialLogo li{
+  .SocialLogo li {
     display: inline;
-  }  
-  .SocialLogo{
-    top:-340vw;
-    left: 16vw;
+  }
+
+  body {
+    padding-bottom: 100px;
+  }
+
+  .txt5 {
+    padding-bottom: 350px;
+  }
+
+  .SocialLogo1 {
+    top: 1950px;
+    left: 18vw;
+  }
+
+  .SocialLogo2 {
+    top: 2100px;
+    left: 18vw;
   }
 }
